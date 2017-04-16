@@ -233,13 +233,13 @@ footer {
 @media screen and (max-width: 980px) {
     .container, .mainContent {
         margin:auto;
-        max-width:800px;
+        max-width:740px;
 
     }
 
 /*Index Page Media Query*/
     .info {
-        max-width:450px;
+        max-width:420px;
     }
     #marissa {
         float:none;
@@ -255,12 +255,16 @@ footer {
     }
 
     .portfolioLinks {
-        max-width: 450px;
+        max-width: 420px;
         margin: auto
     }
 
     .portfolioLinks h2 {
-        left:56px;
+        left:40px;
+    }
+
+    .contact {
+         max-width:420px;       
     }
 
 }
@@ -288,6 +292,7 @@ footer {
     .connect{
         max-width:700px;
         margin: auto;
+
     }
 
     .wrapper1, .wrapper3, .wrapper5 {
@@ -300,11 +305,17 @@ footer {
 
     .portfolioLinks {
         max-width: 700px;
-        float: none;
+        width: 100%;
     }
 
     .portfolioLinks h2 {
         left:0px;
+    }
+
+    .contact {
+        max-width: 700px;
+        width: 100%;
+        margin-bottom: 40px;
     }
 
 }
@@ -313,8 +324,9 @@ footer {
     .mainContent {
         max-width:550px;
         margin-bottom: 40px;
+        padding-top:0px;
         float:none;
-        margin:auto;
+        margin:0 auto;
 
     }
 
@@ -333,11 +345,18 @@ footer {
         width:32%;
     }
 
-/*Index Page Media Query*/
+    header {
+        position:static;
+    }
+
     .info{
-        max-width: 550px;
+        max-width: 570px;
+        margin: auto;
         margin-bottom: 40px;
-        margin-top: 70px;
+        margin-top: 0px;
+        float: none;
+        width: 100%;
+        padding-top:0px;
 
     }
 
@@ -349,14 +368,16 @@ footer {
     }
 
     .connect{
-        max-width:550px;
-        margin: auto;
+        max-width: 570px;
+        float: none;
+        width: 100%;
+        margin-top: 40px;
     }
 
     .portfolioLinks{
-        max-width: 550px;
-        margin-bottom: 40px;
-        margin-top: 70px;
+        max-width: 570px;
+        float: none;
+        margin-top: 0px
     }
 
     .wrapper1, .wrapper2, .wrapper3, .wrapper4, .wrapper5 {
@@ -366,7 +387,15 @@ footer {
     }
 
     .portfolioLinks h2 {
-            left: 105px
+        left: 105px
+    }
+
+    .contact {
+        max-width: 570px;
+        width: 100%;
+        float: none;
+        margin: 0px auto;
+        padding-top: 0px;
     }
 }
 }
