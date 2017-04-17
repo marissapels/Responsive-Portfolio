@@ -376,6 +376,7 @@ footer {
 
     .portfolioLinks{
         max-width: 570px;
+        width:100%;
         float: none;
         margin-top: 0px
     }
@@ -383,11 +384,20 @@ footer {
     .wrapper1, .wrapper2, .wrapper3, .wrapper4, .wrapper5 {
         float: none;
         display: block;
-        text-align: center
+        text-align: center;
+        position:relative;
     }
 
     .portfolioLinks h2 {
-        left: 105px
+        position: relative;
+        bottom: 64px;
+        left: 1px;
+        display: block;
+        margin: auto;
+    }
+
+    .info h2, .contact h2 {
+        padding-top:20px;
     }
 
     .contact {
