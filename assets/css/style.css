@@ -1,4 +1,7 @@
 /*Style sheet for index.html, porfolio.html, and contact.html*/
+
+/*Styles for Index, Portfolio, and Contact*/
+
 * {
 	box-sizing:border-box;
 
@@ -88,14 +91,13 @@ a {
 	display:block;
 } 
 
-.info, .connect, .contact {
-    animation-name:colorChange;
-    animation-duration:4s;
+.social {
+    width: 50px;
+    margin: 0px 5px 0px 5px;
 }
 
-@keyframes colorChange {
-    from {opacity:0;}
-    to {opacity:1;}*/
+.social:hover {
+    border: 3px solid #cccccc;
 }
 
 footer, .mainContent:after{ 
@@ -115,6 +117,18 @@ footer {
     font-size:14px;
 }
 
+
+/*Fade for Index and Contact Page*/
+
+.info, .connect, .contact {
+    animation-name:colorChange;
+    animation-duration:4s;
+}
+
+@keyframes colorChange {
+    from {opacity:0;}
+    to {opacity:1;}
+}
 .connect {
     float:right;
     width:100%;
@@ -126,14 +140,7 @@ footer {
     text-align: center;
 }
 
-.social {
-	width: 50px;
-    margin: 0px 5px 0px 5px;
-}
 
-.social:hover {
-	border: 3px solid #cccccc;
-}
 
 /*Styles for Index page*/
 .info {
@@ -262,10 +269,8 @@ footer {
     .container, .mainContent {
         margin:auto;
         max-width:740px;
-
     }
 
-/*Index Page Media Query*/
     .info {
         max-width:420px;
     }
@@ -303,10 +308,8 @@ footer {
         margin-bottom: 40px;
         float:none;
         margin:auto;
-
     }
 
-/*Index Page Media Query*/
     .info{
         max-width: 700px;
 
@@ -320,7 +323,6 @@ footer {
     .connect{
         max-width:700px;
         margin: auto;
-
     }
 
     .wrapper1, .wrapper3, .wrapper5 {
@@ -355,7 +357,6 @@ footer {
         padding-top:0px;
         float:none;
         margin:0 auto;
-
     }
 
     h1 {
@@ -385,7 +386,6 @@ footer {
         float: none;
         width: 100%;
         padding-top:0px;
-
     }
 
     #marissa {
