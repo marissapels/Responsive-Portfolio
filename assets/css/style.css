@@ -40,8 +40,6 @@ h1 {
     text-align: center;
     margin-top:0px;
     margin-bottom: 0px;
-
-
 }
 
 h2, h3 {
@@ -82,8 +80,6 @@ a {
     max-width: 960px;
     margin: 0 auto;
     padding-top:130px;
-
-
 }
 
 .container:after, .mainContent:after{ 
@@ -91,6 +87,16 @@ a {
 	content:"";
 	display:block;
 } 
+
+.info, .connect, .contact {
+    animation-name:colorChange;
+    animation-duration:4s;
+}
+
+@keyframes colorChange {
+    from {opacity:0;}
+    to {opacity:1;}*/
+}
 
 footer, .mainContent:after{ 
 	padding: 20px; 
@@ -167,6 +173,28 @@ footer {
 .wrapper1 , .wrapper2, .wrapper3, .wrapper4, .wrapper5 {
 	position:relative;
 
+}
+
+.wrapper1 , .wrapper3, .wrapper5 {
+    animation-name: moveImageRight;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+}
+
+.wrapper2, .wrapper4 {
+    animation-name: moveImageLeft;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+}
+
+@keyframes moveImageLeft {
+    from {left:100%;}
+    to {left:0%;}
+}
+
+@keyframes moveImageRight {
+    from {right:100%;}
+    to {right:0%;}
 }
 
 .wrapper1, .wrapper3, .wrapper5 {
